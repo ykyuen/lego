@@ -1,3 +1,9 @@
+# About this fork
+
+As Let's Encrypt has deprecated ACMEv1, the [kube-cert-manager](https://github.com/PalmStoneGames/kube-cert-manager) no longer works. This repository (brach **cloudflare-acmev2-fix**) is for my forked [kube-cert-manager](https://github.com/ykyuen/kube-cert-manager) which works for **Cloudflare** as provider **ONLY**.
+
+---
+
 # ![lego](./docs/static/images/logo.png)
 
 Let's Encrypt client and ACME library written in Go.
@@ -8,7 +14,7 @@ Let's Encrypt client and ACME library written in Go.
 
 ## Features
 
-- ACME v2 [RFC 8555](https://tools.ietf.org/html/rfc8555) 
+- ACME v2 [RFC 8555](https://tools.ietf.org/html/rfc8555)
 - Register with CA
 - Obtain certificates, both from scratch or with an existing CSR
 - Renew certificates
